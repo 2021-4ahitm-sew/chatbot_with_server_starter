@@ -1,0 +1,6 @@
+sudo docker run -d --name chatbot_service -p 127.0.0.1:5000:80 --restart unless-stopped mhaslinger/server
+
+Test Server & Check API at http://localhost:5000/swagger/index.html
+
+-- if Docker doesn't work (fallback!!)
+use the server hosted at https://chatbot.haslinger.it
